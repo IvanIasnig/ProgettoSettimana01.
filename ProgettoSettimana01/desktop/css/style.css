@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+/*generale*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+/*Header*/
+
+header {
+  background-color: black;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  padding-left: 2vh;
+}
+
+/*Section*/
+.ref {
+  background-color: #f04c2f;
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 2vw 4vw;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+cite {
+  font-style: normal;
+}
+
+cite div {
+  font-size: 14px;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+.section1 {
+  background-image: URL("/mobile/images/banner.jpg");
+  background-size: cover;
+  padding: 5vw;
+  text-align: center;
+}
+
+.section1 div {
+  margin-bottom: 5vw;
+}
+
+.section2 {
+  background-color: #e22d0e;
+  color: white;
+  padding: 10vw;
+  margin: 10vw 0vw;
+  text-align: center;
+}
+.section2 h2 {
+  color: white;
+}
+
+.section3 div {
+  width: 90%;
+  border: solid #dee1e3 0.5px;
+  margin: 10vw auto;
+}
+
+div img {
+  max-width: 100%;
+}
+
+.note {
+  border-radius: 100%;
+  width: 70%;
+}
+
+/*footer*/
+
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  padding: 7vw;
+}
+
+footer h2 {
+  color: #c8e7f0;
+}
+
+hr {
+  margin-top: 5vh;
+  width: 50%;
+  margin-bottom: 5vh;
+}
+
+#riferimento div {
+  text-align: center;
+}
+
+#riferimento a {
+  color: inherit;
+}
+
+/*icons*/
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+/*tabelle*/
+table {
+  margin: auto;
+}
+
+.tabellaCentrata tr {
+  text-align: center;
+}
+
+.tabellaCentrata td {
+  padding: 0 10px;
+}
